@@ -662,7 +662,7 @@ button {
 .contact_taital {
     width: 100%;
     float: left;
-    font-size: 50px;
+    font-size: 40px;
     color: #030202;
     font-weight: bold;
 }
@@ -670,7 +670,17 @@ button {
 .icon_main {
     width: 100%;
     display: flex;
-    padding-top: 50px;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    animation: ease 0.3s all;
+    border-radius: 16px;
+}
+
+.icon_main:hover{
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .icon_7 {
@@ -737,15 +747,17 @@ button {
     float: left;
     font-size: 18px;
     color: #ffffff;
-    background-color: #1becde;
+    background-color: #252525;
     padding: 7px 0px;
     text-align: center;
     margin-top: 50px;
     text-transform: uppercase;
+    animation: ease 0.3s all; 
+    border-radius: 10px;
 }
 
-.send_bt a:hover {
-    background-color: #252525;
+.send_bt a:hover{
+  scale: 1.1;
 }
 
 .client_section {
