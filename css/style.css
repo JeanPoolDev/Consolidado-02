@@ -356,6 +356,7 @@ button {
     border-radius: 100%;
 }
 
+
 .health_section {
     width: 98%;
     float: left;
@@ -365,17 +366,17 @@ button {
 .health_taital {
     width: 100%;
     float: left;
-    font-size: 40px;
-    color: #252525;
+    font-size: 60px;
+    color: #0c3cdb;
     font-weight: bold;
 }
 
 .health_text {
     width: 100%;
     float: left;
-    font-size: 16px;
-    color: #252525;
-    margin: 0px;
+    font-size: 30px;
+    color: #000000;
+    margin: 4px;
 }
 
 .health_section_2 {
@@ -988,4 +989,35 @@ input.Enter_text::placeholder {
 
 .margin_90 {
     margin: 90px 0px;
+}
+
+.subtema_de_especializados {
+    color: blue
+}
+
+
+
+
+
+/* Ocultar las imágenes adicionales inicialmente */
+.more-images {
+    display: none;
+}
+
+/* Estilos para el botón de leer más */
+.getquote_bt_1 {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.read-more-btn .arrow {
+    width: 30px;
+    transition: transform 0.3s ease;
+}
+
+/* Rotar la flecha cuando se expande */
+.read-more-btn.active .arrow {
+    transform: rotate(180deg);
 }
