@@ -1,38 +1,40 @@
-<h1 class="adderss_text">Contact Us</h1>
-  <div class="map_icon">
-    <img src="images/map-icon.png" /><span class="paddlin_left_0"
-      >Page when looking at its</span
-    >
-  </div>
-  <div class="map_icon">
-    <img src="images/call-icon.png" /><span class="paddlin_left_0"
-      >+7586656566</span
-    >
-  </div>
-  <div class="map_icon">
-    <img src="images/mail-icon.png" /><span class="paddlin_left_0"
-      >volim@gmail.com</span
-    >
-  </div>
-
-  <h1 class="adderss_text">CONTACTANOS</h1>
-    <div class="map_icon">
-      <img src="images/map-icon.png" /><span class="paddlin_left_0"
-        >Sede EL TAMBO: Jr Moquegua N°1234</span
-      >
-    </div> 
-    <div class="map_icon">
-      <img src="images/map-icon.png" /><span class="paddlin_left_0"
-        >Sede HUANCAYO: Jr Tacna N° 234 Of. 1302 (EDIFICIO GALENA)</span
-      >
-    </div>
-    <div class="map_icon">
-      <img src="images/call-icon.png" /><span class="paddlin_left_0"
-        >900-731-020</span
-      >
-    </div>
-    <div class="map_icon">
-      <img src="images/mail-icon.png" /><span class="paddlin_left_0"
-        >clinicamaro@gmail.com</span
-      >
-    </div>
+ <div class="carousel-item active">
+            <div class="banner_section">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h1 class="banner_taital">
+                      Odontólogos <br /><span style="color: #151515">Especialistas</span>
+                    </h1>
+                    <p class="banner_text">
+                      Somos una clínica odontológica que cuenta con más de 5 años en el mercado odontológico.
+                    </p>
+                    <a href="" class="btn-contact">Contactanos Ahora</a>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="image_1 img_doctor"><img src="images/imagen-doctor2.png" /></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="banner_section">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h1 class="banner_taital">
+                      Odontólogos <br /><span style="color: #151515">Especialistas</span>
+                    </h1>
+                    <p class="banner_text">
+                      Sonríe con confianza, sonríe con nosotros
+                    </p>
+                    <a href="" class="btn-contact">Contactanos Ahora</a>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="image_1"><img src="images/doc-amaro.png" /></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
