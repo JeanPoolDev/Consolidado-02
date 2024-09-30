@@ -330,13 +330,13 @@ button {
 #main_slider a.carousel-control-next {
     position: absolute;
     left: 200px;
-    top: 85%;
+    top: 75%;
 }
 
 #main_slider a.carousel-control-prev {
     position: absolute;
     left: 120px;
-    top: 85%;
+    top: 75%;
     border: 4px solid #4bc5b8;
     color: #4bc5b8;
 }
@@ -501,6 +501,7 @@ button {
     background-repeat: no-repeat;
     padding-top: 180px;
     padding-bottom: 240px;
+    filter: grayscale(60%);
 }
 
 .knowledge_main {
@@ -527,11 +528,12 @@ button {
 }
 
 .knowledge_text {
-    width: 100%;
+    width: 90%;
     float: left;
     font-size: 16px;
-    color: #ffffff;
+    color: black;
     margin: 0px;
+    font-weight: 500;
 }
 
 .play_icon {
@@ -804,6 +806,11 @@ button {
     margin: 0 auto;
     text-align: center;
     display: block;
+    border-radius: 20px;
+}
+
+.client_img:hover{
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
 }
 
 .distracted_text {
