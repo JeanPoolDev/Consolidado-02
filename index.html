@@ -107,7 +107,7 @@
                 <div class="row">
                   <div class="col-md-6">
                     <h1 class="banner_taital">
-                      Odontólogos <br /><span style="color: #151515">Especialistas</span>
+                      Sonrísas <br /><span style="color: #151515">Perfectas</span>
                     </h1>
                     <p class="banner_text">
                       Sonríe con confianza, sonríe con nosotros
@@ -210,7 +210,7 @@
           </div>
           <div class="right_main">
             <div class="play_icon">
-              <a href="https://www.facebook.com/share/r/HFTZz1z8CgJMqcvE/"><img src="images/play-icon.png" /></a>
+              <a href="/medicine.html"><img src="images/play-icon.png" /></a>
             </div>
           </div>
         </div>
@@ -270,14 +270,15 @@
                   </div>
                </div>
                <div class="col-md-6">
-                <form action="https://formsubmit.co/yugihopromasna@gmail.com" method="POST">
+                <form action="" method="POST" id="form">
                   <div class="contact_box">
                     <h1 class="book_text">Contactanos</h1>
-                    <input type="text" class="Email_text" placeholder="Nombre" name="name">
-                    <input type="gmail" class="Email_text" placeholder="Correo" name="email">
-                    <textarea class="massage-bt" placeholder="Mensaje" rows="5" id="comment" name="comments"></textarea>
+                    <input   type="text" class="Email_text" placeholder="Nombre" name="name" id="name">
+                    <input  type="gmail" class="Email_text" placeholder="Correo" name="email" id="email">
+                    <textarea  class="massage-bt" placeholder="Mensaje" rows="5" name="comments" id="message"></textarea>
                     <div class="send_bt">
-                      <a href="#">Envíar</a>
+                      <button class="btn-submit" type="submit">Envíar</button>
+                      <p id="parrafo" class="p-error"></p>
                     </div>
                   </div>
                 </form>
@@ -295,8 +296,8 @@
             <div class="container">
               <h1 class="client_taital">Conoce a nuestros expertos</h1>
               <p class="client_text">
-                Tu <span style="color: aquamarine">sonrisa</span> es nuestra
-                prioridad
+                Tu <span style="color: black; font-weight: 500; background-color: aquamarine;">sonrisa</span> es nuestra 
+                prioridad 
               </p>
               <div class="client_section_2">
                 <div class="client_left">
@@ -321,8 +322,8 @@
             <div class="container">
               <h1 class="client_taital">Conoce a nuestros expertos</h1>
               <p class="client_text">
-                Tu <span style="color: aquamarine">sonrisa</span> es nuestra
-                prioridad
+                Tu <span style="color: black; font-weight: 500;  background-color: aquamarine;">sonrisa</span> es nuestra 
+                prioridad 
               </p>
               <div class="client_section_2">
                 <div class="client_left">
@@ -350,8 +351,8 @@
             <div class="container">
               <h1 class="client_taital">Conoce a nuestros expertos</h1>
               <p class="client_text">
-                Tu <span style="color: aquamarine">sonrisa</span> es nuestra
-                prioridad
+                Tu <span style="color: black; font-weight: 500;  background-color: aquamarine;">sonrisa</span> es nuestra 
+                prioridad 
               </p>
               <div class="client_section_2">
                 <div class="client_left">
@@ -376,8 +377,8 @@
             <div class="container">
               <h1 class="client_taital">Conoce a nuestros expertos</h1>
               <p class="client_text">
-                Tu <span style="color: aquamarine">sonrisa</span> es nuestra
-                prioridad
+                Tu <span style="color: black; font-weight: 500;  background-color: aquamarine;">sonrisa</span> es nuestra 
+                prioridad 
               </p>
               <div class="client_section_2">
                 <div class="client_left">
@@ -402,8 +403,8 @@
             <div class="container">
               <h1 class="client_taital">Conoce a nuestros expertos</h1>
               <p class="client_text">
-                Tu <span style="color: aquamarine">sonrisa</span> es nuestra
-                prioridad
+                Tu <span style="color: black; font-weight: 500;  background-color: aquamarine;">sonrisa</span> es nuestra 
+                prioridad 
               </p>
               <div class="client_section_2">
                 <div class="client_left">
@@ -428,8 +429,8 @@
           <div class="container">
             <h1 class="client_taital">Conoce a nuestros expertos</h1>
             <p class="client_text">
-              Tu <span style="color: aquamarine">sonrisa</span> es nuestra
-              prioridad
+              Tu <span style="color: black; font-weight: 500;  background-color: aquamarine;">sonrisa</span> es nuestra 
+                prioridad 
             </p>
             <div class="client_section_2">
               <div class="client_left">
@@ -515,8 +516,7 @@
               Anthony Martínez - ESPECIALIDAD EN ARMONIZACIÓN OROFACIAL Y 
               POSGRADO EN ORTODONCIA, Ronaldo Rosales - ESPECIALISTA EN RADIOLOGÍA, 
               Juan Ojeda Miranda - ESPECIALISTA EN RESTAURACIONES ESTÉTICAS, 
-              Fanny Requena Gómez - ORTOPEDIATRA, Jason Ricardo Landa Condor - 
-              ESPECIALISTA EN RESTAURACIONES ESTÉTICAS.
+              Fanny Requena Gómez - 
             </div>
           </div>
           <div class="col-lg-3 col-sm-6">
@@ -531,14 +531,19 @@
             </div>
           </div>
           <div class="col-lg-3 col-sm-6">
-            <h1 class="adderss_text">HOJA INFORMATIVA</h1>
-            <input
-              type="text"
-              class="Enter_text"
-              placeholder="Ingrese su gmail"
-              name="Ingrese su gmail"
-            />
-            <div class="subscribe_bt"><a href="#">Subscribe</a></div>
+            <form>
+              <h1 class="adderss_text">HOJA INFORMATIVA</h1>
+              <input
+                type="text"
+                class="Enter_text"
+                placeholder="Ingrese su gmail"
+                name="Ingrese su gmail"
+                required
+              />
+              <div class="subscribe_bt">
+                <a onclick="alert('Correo Envíado')" type="submit">Subscribe</a>
+              </div>
+            </form>
             <div class="social_icon">
               <li>
                 <li>
@@ -557,6 +562,7 @@
     </div>
     <!-- footer section end -->
     <!-- Javascript files-->
+     <script src="js/input.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
